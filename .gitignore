@@ -1,0 +1,66 @@
+# Drupal
+/web/sites/*/files
+/web/sites/*/private
+/web/sites/*/settings*.php
+/web/sites/*/services*.yml
+!/web/sites/default/default.settings.php
+!/web/sites/default/default.services.yml
+
+# Ignore paths that contain user-generated content.
+/web/sites/default/files
+
+# Ignore configuration files that may contain sensitive information
+/web/sites/*/settings.local.php
+/web/sites/*/services.local.yml
+
+# Core
+/web/core
+/web/.htaccess
+
+# Modules
+/web/modules/contrib
+!/web/modules/custom
+
+# Themes
+/web/themes/contrib
+!/web/themes/custom
+
+# Profiles
+/web/profiles/contrib
+!/web/profiles/custom
+
+# Vendor
+/vendor
+
+# Composer
+composer.lock
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Database dumps
+*.sql
+*.sql.gz
+
+# Private files
+/private
